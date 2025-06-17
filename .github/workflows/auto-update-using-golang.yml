@@ -1,6 +1,9 @@
 # Name of the GitHub Actions workflow
 name: Run Go Script and Push Changes
 
+permissions:
+  contents: write
+
 # Define the events that trigger this workflow
 on:
   # Run automatically on a schedule (daily at midnight UTC)
